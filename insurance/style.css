@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } 
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .nav-items > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .nav-items > button {
+    padding: 8px 20px;
+    border: 2px solid hsl(226, 21%, 59%);
+    color: hsl(256, 26%, 20%);
+    background: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+  }
+  .hero-section {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15vh;
+    background-color: hsl(180, 81%, 43%);
+  }
+  .hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.938);
+  }
+  .hero-text-container > h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 15px;
+  }
+  .hero-text-container > p {
+    font-weight: 10px;
+    margin-bottom: 90px;
+  }
+  .hero-text-container > button {
+    padding: 8px 10px;
+    border: 2px solid white;
+    color: white;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+  }
+  .hero-img-container > img {
+    /* display: none; */
+    margin-left: -10rem;
+    margin-top: 7rem;
+    margin-top: -20px;
+    width: 500px;
+    position: relative;
+    
+  }
+  .features-section {
+    margin-top: 2vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15vh;
+  }
+  .features-section > h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: hsl(256, 26%, 20%);
+  }
+  .feature-items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .feature-item {
+    height: max-content;
+    width: max-content;
+    margin-right: 25px;
+  }
+  .feature-item > img {
+    width: 100px;
+  }
+  .feature-item > h1 {
+    color: hsl(256, 26%, 20%);
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .feature-item > p {
+    color: hsl(273, 4%, 51%);
+    font-weight: 500;
+  }
+  .clt-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(130, 47%, 47%);
+    height: 30vh;
+    margin-bottom: 15vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .clt-section > h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .clt-section > button {
+    padding: 8px 20px;
+    border: 2px solid white;
+    color: white;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+  }
+  .footer {
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 62vh;
+  }
+  .footer-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .footer-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: hsl(256, 26%, 20%);
+  }
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu-items > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(256, 26%, 20%);
+    font-weight: 600;
+    padding-bottom: 13px;
+  }
+  .social-container > img {
+    margin-left: 10px;
+    cursor: pointer;
+  }
